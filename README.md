@@ -1,2 +1,4 @@
-# Focussed-Wikipedia-Crawling-using-DFS-and-BFS
-DFS crawler used to crawl 1000 pages or Till depth 7 which ever is earlier from a seed page and given a specific keyword Crawls all page relalted to that topic, Likewise the same is implemented in BFS
+The DFS crawler will consume two arguments: a URL and a keyword to be matched against anchor text or text within a URL.
+Starting with the following seed URL from Wikipedia https://en.wikipedia.org/wiki/Tropical_cyclone
+Follow the links with the prefix https://en.wikipedia.org/wiki that lead to articles only (avoid administrative)
+Crawl to depth 6 and record the first 1000 webpages visited 
